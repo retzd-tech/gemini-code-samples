@@ -2,9 +2,9 @@ import google.generativeai as genai
 import agentops
 from agentops.agent import track_agent
 
-GOOGLE_API_KEY='AIzaSyBqkf79SzLq3GTbG-hq-PxO4yHITRGL0xk'
+GOOGLE_API_KEY=''
 genai.configure(api_key=GOOGLE_API_KEY)
-agentops.init('ba6f4fd8-51bf-42ef-97dc-9f3f7cc3022c')
+agentops.init('')
 
 prompt = """
 QUERY: who is the best employee in suroboyo restaurant in 2023 ?.
